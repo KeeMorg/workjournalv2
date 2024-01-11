@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <meta charset="UTF-8">
+    <title>{{ entry.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333366; }
+        .timestamp { color: #777; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3>{{ entry.title }}</h3>
+        <p>{{ entry.content }}</p>
+        <p><i class="timestamp">{{ entry.timestamp }}</i></p>
+    </div>
+</body>
+</html>

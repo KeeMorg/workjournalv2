@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+    background-color: white; /* White background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Approximate width of bond paper */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #87CEEB; /* Sky blue color */
+    text-align: center;
+}
+
+form {
+    background-color: #f0f8ff; /* Light sky blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #87CEEB; /* Sky blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #87CEEB; /* Sky blue background */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7bb8d6; /* Darker sky blue on hover */
+}
+
+.entry {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2; /* Light gray for contrast */
+    border-radius: 5px;
+}
+
+.entry h3 {
+    margin: 0;
+    color: #333366; /* Dark blue for titles */
+}
+
+.entry p {
+    margin: 10px 0;
+}
+
+.entry .timestamp {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
